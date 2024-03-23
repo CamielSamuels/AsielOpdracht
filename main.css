@@ -1,3 +1,8 @@
+body{
+  background-color: #83a6ad;
+  background-image: linear-gradient(to right, rgb(153, 122, 122) , yellow);
+}
+
 ul {
   list-style-type: none;
   margin: 0;
