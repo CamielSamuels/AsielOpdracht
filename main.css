@@ -1,3 +1,4 @@
+/*header*/
 body{
   background-color: #83a6ad;
   background-image: linear-gradient(to right, rgb(153, 122, 122) , yellow);
@@ -34,97 +35,9 @@ li a:hover:not(.active) {
   background-color: #8cb9a9;
 }
 
-
 .Home {
   margin-left: 100px;
 }
-
-.groot-omhulsel {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  margin-top: 300px;
-}
-
-/*katten*/
-#kat {
-  text-align: center;
-}
+/*header*/
 
 
-.omhulsel1 {
-  width: 200px;
-  height: 250px;
-  display: block; 
-  margin-left: auto; 
-  margin-right: auto;
-
-}
-
-.binnen1 {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(156, 153, 153);
-  border-radius: 10px;
-}
-
-#zoekbar1 {
-  margin-left: 9px;
-  margin-top: 220px;
-  border-radius: 5px;
-}
-
-/*katten*/
-
-/*honden*/
-#hond {
-  text-align: center;
-}
-
-.omhulsel2 {
-  width: 200px;
-  height: 250px;
-  display: block; 
-  margin-left: auto; 
-  margin-right: auto;
-}
-
-.binnen2 {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(156, 153, 153);
-  border-radius: 10px;
-}
-
-#zoekbar2 {
-  margin-left: 9px;
-  margin-top: 220px;
-  border-radius: 5px;
-}
-/*honden*/
-
-/*overig*/
-#overig {
-  text-align: center;
-}
-
-.omhulsel3 {
-  width: 200px;
-  height: 250px;
-  display: block; 
-  margin-left: auto; 
-  margin-right: auto;
-}
-
-.binnen3 {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(156, 153, 153);
-  border-radius: 10px;
-}
-
-#zoekbar3 {
-  margin-left: 9px;
-  margin-top: 220px;
-  border-radius: 5px;
-}
-/*overig*/
