@@ -1,9 +1,12 @@
 
 .groot-omhulsel {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-top: 300px;
-  }
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* margin-top: -300px; */
+  position: absolute;
+  width: 90vw;
+  top: 40vh;
+}
   
   /*katten*/
   #kat {
@@ -12,8 +15,8 @@
   
   
   .omhulsel1 {
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 350px;
     display: block; 
     margin-left: auto; 
     margin-right: auto;
@@ -41,8 +44,8 @@
   }
   
   .omhulsel2 {
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 350px;
     display: block; 
     margin-left: auto; 
     margin-right: auto;
@@ -68,8 +71,8 @@
   }
   
   .omhulsel3 {
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 350px;
     display: block; 
     margin-left: auto; 
     margin-right: auto;
@@ -89,3 +92,48 @@
   }
   /*overig*/
   
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#bg {
+  position: absolute;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 0;
+}
+
+/* Buttons */
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 275px 90px;
+  cursor: pointer;
+}

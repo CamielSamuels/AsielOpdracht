@@ -1,43 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <ul>
-        <li><a class="Home" href="index.html">Home</a></li>
-        <li><a href="nieuws.html">Nieuws</a></li>
-        <li><a href="overOns.html">Over ons</a></li>
-        <li style="float:right"><a class="active" href="#inloggen">Inloggen</a></li>
+        <li><a class="active" href="#home">Nieuws</a></li>
+        <li><a href="#news">Informatie</a></li>
+        <li><a href="#about">Zoeken</a></li>
+        <li><a href="inlog.html">Inloggen</a></li>
     </ul>
+
+    <img class="bg" src="img/shelter.jpg" alt="dog">
+
     <div class="groot-omhulsel">
         <div class="omhulsel1">
             <h2 id="kat">Katten</h2>
             <div class="binnen1">
-                <input type="text" placeholder="Zoeken" name="zoeken" id="zoekbar1">
+                <a href="#" class="button">Zoeken</a>
             </div>
         </div>
 
         <div class="omhulsel2">
             <h2 id="hond">Honden</h2>
             <div class="binnen2">
-                <input type="text" placeholder="Zoeken" name="zoeken" id="zoekbar2">
+                <a href="#" class="button">Zoeken</a>
             </div>
         </div>
 
         <div class="omhulsel3">
             <h2 id="overig">Overig</h2>
             <div class="binnen3">
-                <input type="text" placeholder="Zoeken" name="zoeken" id="zoekbar3">
-            </div> 
+                <a href="#" class="button">Zoeken</a>
+            </div>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
