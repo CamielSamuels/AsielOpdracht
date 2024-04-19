@@ -24,6 +24,19 @@
     outline: none;
   }
   
+.filter-knop {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
 
   .zoeken a:hover, .dropdown-knop:hover {
     color: #f1f1f1;
@@ -46,7 +59,35 @@
     padding-right: 8px;
   }
   
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+
+
+  .show {
+    display: block;
+  }
+
+
+
+
+
+/*test*/
+
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+
+}
+
+  
+  .container {
+    position: relative;
+    left: 200px;
+    top: 50px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
   }

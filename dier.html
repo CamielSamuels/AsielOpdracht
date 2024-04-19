@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/dierenkaart.css">
 
 </head>
@@ -17,16 +16,62 @@
         <li><a href="#about">Zoeken</a></li>
         <li><a href="inlog.html">Inloggen</a></li>
     </ul>
+
+
     <div class="zoeken" >
-    <button class="dropdown-knop" onclick="dropdown()">Dier
+
+    <div class="dier">
+      <button class="dropdown-knop" onclick="dropdown(); filter()">Dier
         <i class="pijl"></i>
       </button>
       <div class="dropdown-container">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        <button class="filter-knop">hond</button>
+        <button class="filter-knop">dier</button>
+        <button class="filter-knop">overig</button>
       </div>
     </div>
+    
+    <div class="geslacht">
+      <button class="dropdown-knop" onclick="dropdown()">Geslacht
+        <i class="pijl"></i>
+      </button>
+      <div class="dropdown-container">
+        <button class="filter-knop" onclick=" filter('fruits')">man</button>
+        <button class="filter-knop" onclick=" filter('all')">vrouw</button>
+        <button class="filter-knop" onclick=" filter('all')">overig</button>
+      </div>
+    </div>
+
+    <div class="leeftijd">
+      <button class="dropdown-knop" onclick="dropdown()">leeftijd
+        <i class="pijl"></i>
+      </button>
+      <div class="dropdown-container">
+        <button class="filter-knop" onclick=" filter('all')">1-12 Maanden</button>
+        <button class="filter-knop" onclick=" filter('all')">1-5 Jaar</button>
+        <button class="filter-knop" onclick=" filter('all')">5-10 Jaar</button>
+        <button class="filter-knop" onclick=" filter('all')">< 10 Jaar</button>
+      </div>
+    </div>
+    
+    </div>
+
+    <div class="container">
+      <div class="filterDiv cars">BMW</div>
+      <div class="filterDiv colors fruits">Orange</div>
+      <div class="filterDiv cars">Volvo</div>
+      <div class="filterDiv colors">Red</div>
+      <div class="filterDiv cars">Ford</div>
+      <div class="filterDiv colors">Blue</div>
+      <div class="filterDiv animals">Cat</div>
+      <div class="filterDiv animals">Dog</div>
+      <div class="filterDiv fruits">Melon</div>
+      <div class="filterDiv fruits animals">Kiwi</div>
+      <div class="filterDiv fruits">Banana</div>
+      <div class="filterDiv fruits">Lemon</div>
+      <div class="filterDiv animals">Cow</div>
+    </div>
+    
     
 </body>
 </html>
